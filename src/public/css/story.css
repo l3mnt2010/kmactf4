@@ -1,0 +1,115 @@
+body {
+    background-image: url("/static/images/background.jpg");
+    background-size: cover;
+}
+
+.bodyContainer {
+  margin: auto;
+  width: 80%;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 20px;
+  align-items: center;
+  font-size: 16px;
+}
+
+#user {
+    font-size: 18px;
+}
+
+.logoutBtn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.storyContent {
+    font-size: 20px;
+    background-color: #FDFEFB;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+#info {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-size: 14px;
+    background-color: white;
+    width: fit-content;
+    clear: right;
+    float: right;
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.nextBtn {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  float: right;
+  font-size: 16px;
+}
+
+.nextBtn:hover {
+  background-color: #90EE90;
+  box-shadow: #013220 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.nextBtn:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .nextBtn {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
